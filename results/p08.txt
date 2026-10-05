@@ -1,0 +1,23 @@
+Boston Housing: 506 objects, 13 features; train=404, test=102
+SVR with linear kernel
+
+C=1, epsilon=0.1
+MSE=15.3767; Explained Variance=0.8170
+Predicted prices: A=18.5218; B=17.6461; C=21.1696
+
+C=0.1, epsilon=0.1
+MSE=16.8733; Explained Variance=0.8006
+Predicted prices: A=18.9688; B=17.3908; C=20.9671
+
+C=10, epsilon=0.1
+MSE=15.7605; Explained Variance=0.8102
+Predicted prices: A=19.2143; B=18.4198; C=20.7655
+
+C=1, epsilon=0.01
+MSE=15.3990; Explained Variance=0.8178
+Predicted prices: A=18.4479; B=17.6232; C=21.2128
+
+C=1, epsilon=1
+MSE=15.6059; Explained Variance=0.8137
+Predicted prices: A=18.6392; B=17.4918; C=21.2286
+

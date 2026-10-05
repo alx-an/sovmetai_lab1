@@ -1,0 +1,8 @@
+Label mapping:
+black -> 0
+green -> 1
+red -> 2
+white -> 3
+yellow -> 4
+Encoded: ['green', 'red', 'black'] -> [1, 2, 0]
+Decoded: [3, 0, 4, 1] -> ['white', 'black', 'yellow', 'green']

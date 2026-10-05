@@ -1,0 +1,18 @@
+
+Multivariable regression:
+Train=560, test=140
+Point: [7.75, 6.35, 5.56]
+Linear prediction = 36.0529
+Polynomial prediction (degree=10) = 31.6394
+Linear test metrics:
+Mean Absolute Error = 3.5767
+Mean Squared Error = 20.3103
+Median Absolute Error = 2.9879
+Explained Variance = 0.8649
+R2 = 0.8648
+Polynomial test metrics:
+Mean Absolute Error = 11.1924
+Mean Squared Error = 907.6603
+Median Absolute Error = 5.0934
+Explained Variance = -4.9048
+R2 = -5.0415

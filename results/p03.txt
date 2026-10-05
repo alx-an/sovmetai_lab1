@@ -1,0 +1,6 @@
+Logistic Regression:
+C=1: accuracy=100.00%
+  Coefficient norm=1.9187; mean max probability=0.5661
+C=100: accuracy=100.00%
+  Coefficient norm=7.1410; mean max probability=0.9314
+Different predictions on the plot grid: 12.58%

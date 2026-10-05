@@ -1,0 +1,7 @@
+Naive Bayes: train=320, test=80
+Accuracy on all data: 99.75%
+Metric                 Test      CV (3 folds)
+accuracy                100.00%     99.75%
+precision_weighted      100.00%     99.76%
+recall_weighted         100.00%     99.75%
+f1_weighted             100.00%     99.75%

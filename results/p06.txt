@@ -1,0 +1,18 @@
+Income data: 32561 rows; 2399 missing; 30162 retained
+Train=24129, test=6033
+
+LinearSVC C=0.1
+Accuracy=81.70%; Precision=80.76%; Recall=81.70%
+F1=79.93%; F1 CV (3 folds)=80.15%
+Predictions: point 1 -> <=50K; point 2 -> >50K; point 3 -> <=50K
+
+LinearSVC C=1
+Accuracy=81.70%; Precision=80.76%; Recall=81.70%
+F1=79.93%; F1 CV (3 folds)=80.15%
+Predictions: point 1 -> <=50K; point 2 -> >50K; point 3 -> <=50K
+
+RBF SVC C=1
+Accuracy=83.34%; Precision=82.53%; Recall=83.34%
+F1=82.43%; F1 CV (3 folds)=83.48%
+Predictions: point 1 -> <=50K; point 2 -> >50K; point 3 -> <=50K
+

@@ -1,0 +1,10 @@
+Single variable regression:
+Train=48, test=12
+Mean Absolute Error = 0.5929
+Mean Squared Error = 0.4885
+Median Absolute Error = 0.5135
+Explained Variance = 0.8611
+R2 = 0.8585
+y = 0.6918 * x + 4.0272
+Predictions after loading are equal: True
+MAE after loading = 0.5929
