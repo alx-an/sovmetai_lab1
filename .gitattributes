@@ -1,0 +1,2 @@
+# Preserve exact CSV bytes used by split and prediction integrity checks.
+transfer_learning/results/*.csv -text
