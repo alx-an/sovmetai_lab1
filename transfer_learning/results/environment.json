@@ -1,0 +1,12 @@
+{
+  "python": "3.12.10",
+  "torch": "2.14.1+cpu",
+  "torchvision": "0.29.1+cpu",
+  "numpy": "2.5.2",
+  "platform": "Windows",
+  "device": "cpu",
+  "cpu": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+  "threads": 6,
+  "cuda_available": false,
+  "weights_url": "https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth"
+}

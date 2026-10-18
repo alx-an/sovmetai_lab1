@@ -1,0 +1,224 @@
+{
+  "feature": {
+    "accuracy": 0.9549248747913188,
+    "correct": 572,
+    "n": 599,
+    "macro": {
+      "precision": 0.9550089703430652,
+      "recall": 0.954848484848485,
+      "f1-score": 0.9547969780410331,
+      "support": 599.0
+    },
+    "weighted": {
+      "precision": 0.9551008050180952,
+      "recall": 0.9549248747913188,
+      "f1-score": 0.9548809085334801,
+      "support": 599.0
+    },
+    "per_class": {
+      "Bengal": {
+        "precision": 0.970873786407767,
+        "recall": 1.0,
+        "f1-score": 0.9852216748768473,
+        "support": 100.0
+      },
+      "Birman": {
+        "precision": 0.9803921568627451,
+        "recall": 1.0,
+        "f1-score": 0.9900990099009901,
+        "support": 100.0
+      },
+      "British_Shorthair": {
+        "precision": 1.0,
+        "recall": 0.96,
+        "f1-score": 0.9795918367346939,
+        "support": 100.0
+      },
+      "american_bulldog": {
+        "precision": 0.9191919191919192,
+        "recall": 0.91,
+        "f1-score": 0.914572864321608,
+        "support": 100.0
+      },
+      "beagle": {
+        "precision": 0.9595959595959596,
+        "recall": 0.95,
+        "f1-score": 0.9547738693467337,
+        "support": 100.0
+      },
+      "boxer": {
+        "precision": 0.9,
+        "recall": 0.9090909090909091,
+        "f1-score": 0.9045226130653267,
+        "support": 99.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        96,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        91,
+        2,
+        7
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        95,
+        3
+      ],
+      [
+        1,
+        0,
+        0,
+        6,
+        2,
+        90
+      ]
+    ]
+  },
+  "finetune": {
+    "accuracy": 0.9499165275459098,
+    "correct": 569,
+    "n": 599,
+    "macro": {
+      "precision": 0.9507526400328258,
+      "recall": 0.9498484848484848,
+      "f1-score": 0.9498710482516683,
+      "support": 599.0
+    },
+    "weighted": {
+      "precision": 0.9508221921712932,
+      "recall": 0.9499165275459098,
+      "f1-score": 0.9499391286175461,
+      "support": 599.0
+    },
+    "per_class": {
+      "Bengal": {
+        "precision": 0.9523809523809523,
+        "recall": 1.0,
+        "f1-score": 0.975609756097561,
+        "support": 100.0
+      },
+      "Birman": {
+        "precision": 0.9803921568627451,
+        "recall": 1.0,
+        "f1-score": 0.9900990099009901,
+        "support": 100.0
+      },
+      "British_Shorthair": {
+        "precision": 1.0,
+        "recall": 0.94,
+        "f1-score": 0.9690721649484536,
+        "support": 100.0
+      },
+      "american_bulldog": {
+        "precision": 0.8942307692307693,
+        "recall": 0.93,
+        "f1-score": 0.9117647058823529,
+        "support": 100.0
+      },
+      "beagle": {
+        "precision": 0.968421052631579,
+        "recall": 0.92,
+        "f1-score": 0.9435897435897436,
+        "support": 100.0
+      },
+      "boxer": {
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1-score": 0.9090909090909091,
+        "support": 99.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        100,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        2,
+        94,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        93,
+        1,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        92,
+        3
+      ],
+      [
+        1,
+        0,
+        0,
+        6,
+        2,
+        90
+      ]
+    ]
+  },
+  "comparison": {
+    "accuracy_delta": -0.005008347245409015,
+    "paired_bootstrap_95_ci": [
+      -0.01335559265442404,
+      0.00333889816360601
+    ],
+    "bootstrap_replicates": 10000,
+    "corrected_by_finetune": 2,
+    "spoiled_by_finetune": 5,
+    "both_correct": 567,
+    "both_wrong": 25
+  }
+}

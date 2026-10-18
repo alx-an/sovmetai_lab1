@@ -1,0 +1,19 @@
+{
+  "predictions": [
+    "Bengal_1",
+    "Birman_1",
+    "British_Shorthair_2",
+    "american_bulldog_2",
+    "beagle_1",
+    "boxer_1"
+  ],
+  "errors": [
+    "British_Shorthair_21",
+    "British_Shorthair_239",
+    "British_Shorthair_258",
+    "British_Shorthair_47",
+    "British_Shorthair_74",
+    "British_Shorthair_87"
+  ],
+  "source": "Oxford-IIIT Pet, Parkhi et al., CVPR 2012; research use; original image rights apply"
+}

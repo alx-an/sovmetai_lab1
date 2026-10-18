@@ -1,0 +1,24 @@
+{
+  "initial_model_hash": "cdac612cedccbc7d7390f464616b2c7318775675c4d7c8518f99beba6715c380",
+  "initial_backbone_hash": "d42bb32ad876b9de2b04a6ccd245f76c4d0c6bb3ded74c25261cf14720c7e7d5",
+  "frozen_before": "d42bb32ad876b9de2b04a6ccd245f76c4d0c6bb3ded74c25261cf14720c7e7d5",
+  "head_before": "38ddf43c9370b5734a362b224aea24b8d1941024bf40231ba0f111647278220c",
+  "trainable_parameters": 3462,
+  "total_parameters": 930470,
+  "trainable_names": [
+    "classifier.1.weight",
+    "classifier.1.bias"
+  ],
+  "initialization": "ImageNet",
+  "source_checkpoint_sha256": null,
+  "best_epoch": 14,
+  "best_validation_accuracy": 0.9416666666666667,
+  "best_validation_loss": 0.2492274840672811,
+  "frozen_after": "d42bb32ad876b9de2b04a6ccd245f76c4d0c6bb3ded74c25261cf14720c7e7d5",
+  "best_model_hash": "bdf9e592f0725485ac654a35cba7fc7eebd58ab27dfdd1137d2f4332486d2dc2",
+  "best_backbone_hash": "d42bb32ad876b9de2b04a6ccd245f76c4d0c6bb3ded74c25261cf14720c7e7d5",
+  "head_after": "6171ea486a16b8c3dbfe792d76962fa26c0f290d5b1c2a5d0b1709a9fb03ef02",
+  "checkpoint_sha256": "dd96f9fe47bf0140cee475fe059d878f036d97c6c5f3d01bda74135d5e091d7c",
+  "training_seconds": 95.65947070007678,
+  "completed_epochs": 15
+}

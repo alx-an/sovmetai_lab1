@@ -1,0 +1,11 @@
+data/
+checkpoints/
+.cache/
+.venv*/
+__pycache__/
+*.pyc
+*.tmp
+*.log
+AGENTS.md
+.codex/
+.agents/

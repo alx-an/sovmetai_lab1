@@ -1,0 +1,4 @@
+{
+  "feature": "passed: resumed epoch metrics, final tensors and test predictions match exactly",
+  "finetune": "passed: resumed epoch metrics, final tensors and test predictions match exactly"
+}

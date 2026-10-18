@@ -1,0 +1,63 @@
+{
+  "source": "https://www.robots.ox.ac.uk/~vgg/data/pets/",
+  "archives": {
+    "images.tar.gz": {
+      "url": "https://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz",
+      "md5": "5c4f3ee8e5d25df40f4fd59a7f44e54c",
+      "sha256": "67195c5e1c01f1ab5f9b6a5d22b8c27a580d896ece458917e61d459337fa318d"
+    },
+    "annotations.tar.gz": {
+      "url": "https://www.robots.ox.ac.uk/~vgg/data/pets/data/annotations.tar.gz",
+      "md5": "95a8c909bbe2e81eed6a22bccdf3f68f",
+      "sha256": "52425fb6de5c424942b7626b428656fcbd798db970a937df61750c0f1d358e91"
+    }
+  },
+  "classes": [
+    "Bengal",
+    "Birman",
+    "British_Shorthair",
+    "american_bulldog",
+    "beagle",
+    "boxer"
+  ],
+  "counts": {
+    "test": 599,
+    "train": 480,
+    "val": 120
+  },
+  "per_class": {
+    "Bengal": {
+      "test": 100,
+      "train": 80,
+      "val": 20
+    },
+    "Birman": {
+      "test": 100,
+      "train": 80,
+      "val": 20
+    },
+    "British_Shorthair": {
+      "test": 100,
+      "train": 80,
+      "val": 20
+    },
+    "american_bulldog": {
+      "test": 100,
+      "train": 80,
+      "val": 20
+    },
+    "beagle": {
+      "test": 100,
+      "train": 80,
+      "val": 20
+    },
+    "boxer": {
+      "test": 99,
+      "train": 80,
+      "val": 20
+    }
+  },
+  "split_sha256": "e0f98c0551e0e321a62c5e16ca9195a547a28318603daf5dbe9329cce722d04a",
+  "exact_duplicates": 0,
+  "note": "Official test preserved; stratified trainval split. Exact file and decoded-pixel duplicates checked; near-duplicates and ImageNet overlap not exhaustively audited."
+}
